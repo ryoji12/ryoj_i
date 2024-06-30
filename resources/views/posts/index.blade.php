@@ -23,5 +23,6 @@
         <h2 class = 'title'>
             <a href = "/posts/{{ $post -> id }}" > {{ $post -> title}}</a>
         </h2>
+        <div class="edit"><a href="/posts/{{ $post->id }}/edit">edit</a></div>
     </body>
 </html>
